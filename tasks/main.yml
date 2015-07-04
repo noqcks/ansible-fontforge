@@ -1,9 +1,19 @@
 ---
-- name: Install Packages | apt
+- name: Install Package | apt | fontforge
   apt:
     state: latest
     pkg: fontforge
   tags:
     - fontforge
+    - software-installation
+    - using-apt
+
+- name: Install Package | apt | python-fontforge
+  apt:
+    state: latest
+    pkg: python-fontforge
+  when: fontforge_python_enabled
+  tags:
+    - python-fontforge
     - software-installation
     - using-apt
