@@ -3,3 +3,16 @@ dependencies:
   - role: telusdigital.apt-repository
     repository_key: '0x20221afd63e0c3b9'
     repository_url: 'deb http://ppa.launchpad.net/fontforge/fontforge/ubuntu trusty main'
+galaxy_info:
+  author: "Ben Visser"
+  company: "TELUS digital"
+  description: "fontforge - an open source font editor"
+  license: MIT
+  platforms:
+    - name: Ubuntu
+      versions:
+      - precise
+      - trusty
+      - utopic
+  categories:
+    - system
