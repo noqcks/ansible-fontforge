@@ -1,6 +1,6 @@
 # ansible-fontforge
 
-[fontforge](http://fontforge.github.io/) - the friendly interactive shell
+[fontforge](http://fontforge.github.io/) - an open source font editor
 
 [![Platforms](http://img.shields.io/badge/platforms-ubuntu-lightgrey.svg?style=flat)](#)
 
