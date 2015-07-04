@@ -16,7 +16,7 @@ Example Playbook
 ----------------
     - hosts: servers
       roles:
-         - role: telusdigital.fish
+         - role: noqcks.fontforge
 
 License
 -------
