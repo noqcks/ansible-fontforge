@@ -1,0 +1,5 @@
+---
+dependencies:
+  - role: telusdigital.apt-repository
+    repository_key: '0x20221afd63e0c3b9'
+    repository_url: 'deb http://ppa.launchpad.net/fontforge/fontforge/ubuntu trusty main'
